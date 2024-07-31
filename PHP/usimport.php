@@ -78,12 +78,12 @@ $combinedTotalData = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>United States Imports Value Of Electrical, Electronic Equipment From ASEAN Country</title>
+    <title>United States Import Value of Electrical and Electronic Equipment from ASEAN Countries</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-trendline"></script>
 </head>
 <body>
-    <h1>United States Imports Value Of Electrical, Electronic Equipment From ASEAN Country</h1>
+    <h1>United States Import Value of Electrical and Electronic Equipment from ASEAN Countries</h1>
     <canvas id="tradeChart"></canvas>
     <script>
         const data = <?php echo json_encode($countryData); ?>;
